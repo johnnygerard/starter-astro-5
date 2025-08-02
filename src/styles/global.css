@@ -1,0 +1,2 @@
+@layer base;
+@import "preflight.css" layer(base);
