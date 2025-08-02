@@ -1,2 +1,23 @@
-@layer base;
-@import "preflight.css" layer(base);
+@import "tailwindcss";
+
+@layer base {
+  button:enabled,
+  [role="button"]:enabled {
+    cursor: pointer;
+  }
+}
+
+@media screen and (update: fast) and (prefers-reduced-motion: no-preference) {
+  :root {
+    @apply scroll-smooth;
+  }
+}
+
+@media not (update: fast) {
+  * {
+    @apply !animate-none !transition-none;
+  }
+}
+
+@theme {
+}
