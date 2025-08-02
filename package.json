@@ -1,20 +1,20 @@
 {
-  "name": "starter-astro-5",
-  "type": "module",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
-  },
   "dependencies": {
     "astro": "^5.12.8"
   },
-  "private": true,
   "devDependencies": {
     "prettier": "3.6.2",
     "prettier-plugin-astro": "0.14.1"
-  }
+  },
+  "name": "starter-astro-5",
+  "private": true,
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "preview": "astro preview"
+  },
+  "type": "module"
 }
