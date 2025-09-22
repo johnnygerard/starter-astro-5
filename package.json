@@ -1,13 +1,18 @@
 {
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.11",
-    "astro": "^5.12.8",
-    "tailwindcss": "^4.1.11"
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/sitemap": "^3.6.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "astro": "^5.13.10",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.9.2",
+    "zod": "^4.1.11"
   },
   "devDependencies": {
     "prettier": "3.6.2",
     "prettier-plugin-astro": "0.14.1",
-    "prettier-plugin-tailwindcss": "0.6.14"
+    "prettier-plugin-tailwindcss": "0.6.14",
+    "schema-dts": "^1.1.5"
   },
   "engines": {
     "node": "22",
@@ -17,11 +22,15 @@
   "private": true,
   "scripts": {
     "astro": "astro",
-    "build": "astro build",
+    "build": "astro check && astro build",
+    "check": "astro check",
     "dev": "astro dev",
+    "docs": "astro docs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "toolbar:disable": "astro preferences disable devToolbar",
+    "toolbar:enable": "astro preferences enable devToolbar"
   },
   "type": "module"
 }

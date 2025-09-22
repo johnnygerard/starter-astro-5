@@ -32,8 +32,9 @@ npm install --save-exact --save-dev prettier@latest prettier-plugin-astro@latest
 ## Dev Environment & Tools
 
 - **System**: [Ubuntu](https://ubuntu.com/desktop)
-- **Editor**: [WebStorm](https://www.jetbrains.com/webstorm/)
+- **Editor**: [VS Code](https://code.visualstudio.com/)
 - **Formatter**: [Prettier](https://prettier.io/)
+- **Linter**: [ESLint](https://eslint.org/)
 - **AI assistant**: [GitHub Copilot](https://github.com/features/copilot)
 
 ## Copyright

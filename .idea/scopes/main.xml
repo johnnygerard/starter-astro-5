@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="main" pattern="file[starter-astro-5]:*/&amp;&amp;!file:package-lock.json" />
-</component>
