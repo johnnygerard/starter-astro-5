@@ -17,7 +17,7 @@ out [Creating a repository from a template](https://docs.github.com/en/repositor
 
 ### Backend
 
-- **CDN**: [Vercel Edge Network](https://vercel.com/docs/edge-network)
+- **CDN**: [Vercel](https://vercel.com/docs/cdn)
 
 ## How to Update
 
