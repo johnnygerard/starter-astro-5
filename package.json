@@ -20,6 +20,7 @@
     "node": "24",
     "npm": "11"
   },
+  "name": "starter-astro-5",
   "private": true,
   "scripts": {
     "astro": "astro",
@@ -35,5 +36,6 @@
     "toolbar:disable": "astro preferences disable devToolbar",
     "toolbar:enable": "astro preferences enable devToolbar"
   },
-  "type": "module"
+  "type": "module",
+  "version": "0.0.0"
 }
