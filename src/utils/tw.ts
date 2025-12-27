@@ -1,11 +1,9 @@
-import type { AstroBuiltinAttributes } from "astro";
+import { clsx, type ClassValue } from "clsx";
 
 /**
- * Enable Tailwind CSS IntelliSense
- *
- * Note that this utility function is a no-op and requires:
- * - VS Code extension: bradlc.vscode-tailwindcss
- * - VS Code setting: "tailwindCSS.classFunctions": ["tw"]
+ * No-op wrapper function around `clsx` enabling:
+ * - Tailwind CSS IntelliSense (VS Code extension)
+ * - Prettier plugin for Tailwind CSS
  *
  * @example
  * ```ts
@@ -18,4 +16,4 @@ import type { AstroBuiltinAttributes } from "astro";
  * ]);
  * ```
  */
-export const tw = (classes: AstroBuiltinAttributes["class:list"]) => classes;
+export const tw = (...args: ClassValue[]): string => clsx(...args);
