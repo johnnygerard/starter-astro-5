@@ -10,5 +10,8 @@
   "name": "",
   "observability": {
     "enabled": true
-  }
+  },
+  "preview_urls": true,
+  "send_metrics": false,
+  "workers_dev": true
 }
