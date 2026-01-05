@@ -1,13 +1,10 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "baseUrl": ".",
     "checkJs": true,
     "paths": {
       "~/*": ["src/*"]
     }
   },
-  "exclude": ["dist"],
-  "extends": "astro/tsconfigs/strict",
-  "include": ["**/*"]
+  "extends": "astro/tsconfigs/strictest"
 }
