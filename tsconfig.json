@@ -7,7 +7,5 @@
       "~/*": ["src/*"]
     }
   },
-  "exclude": ["dist"],
-  "extends": "astro/tsconfigs/strict",
-  "include": ["**/*"]
+  "extends": "astro/tsconfigs/strict"
 }
