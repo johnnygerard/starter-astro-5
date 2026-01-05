@@ -30,6 +30,10 @@
       "version": "24"
     }
   },
+  "engines": {
+    "node": "24",
+    "npm": "11"
+  },
   "name": "starter-astro-5",
   "private": true,
   "scripts": {
