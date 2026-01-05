@@ -39,4 +39,4 @@ npm install --save-exact --save-dev prettier@latest prettier-plugin-astro@latest
 
 ## Copyright
 
-© 2025 Johnny Gérard
+© 2025–2026 Johnny Gérard
