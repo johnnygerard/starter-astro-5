@@ -8,7 +8,7 @@
     "clsx": "^2.1.1",
     "tailwindcss": "^4.1.11",
     "typescript": "^5.9.3",
-    "zod": "^4.2.1"
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "prettier": "3.7.4",
@@ -17,6 +17,18 @@
     "vite-tsconfig-paths": "^6.0.3",
     "vitest": "^4.0.16",
     "wrangler": "^4.54.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "onFail": "error",
+      "version": "11"
+    },
+    "runtime": {
+      "name": "node",
+      "onFail": "error",
+      "version": "24"
+    }
   },
   "engines": {
     "node": "24",

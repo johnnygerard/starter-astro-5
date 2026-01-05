@@ -29,6 +29,11 @@ npm update --save
 npm install --save-exact --save-dev prettier@latest prettier-plugin-astro@latest prettier-plugin-tailwindcss@latest
 ```
 
+## Notes
+
+- `.nvmrc` is used primarily as a way to specify the Node.js version for Cloudflare Workers (see [Build image](https://developers.cloudflare.com/workers/ci-cd/builds/build-image/))
+- The GitHub Action `actions/setup-node@v6` relies on both `package.json` `engines` and `devEngines` to set the Node.js version and automatically cache npm dependencies.
+
 ## Dev Environment & Tools
 
 - **System**: [Ubuntu](https://ubuntu.com/desktop)
@@ -39,4 +44,4 @@ npm install --save-exact --save-dev prettier@latest prettier-plugin-astro@latest
 
 ## Copyright
 
-© 2025 Johnny Gérard
+© 2025–2026 Johnny Gérard
