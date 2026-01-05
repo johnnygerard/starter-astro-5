@@ -18,9 +18,17 @@
     "vitest": "^4.0.16",
     "wrangler": "^4.54.0"
   },
-  "engines": {
-    "node": "24",
-    "npm": "11"
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "onFail": "error",
+      "version": "11"
+    },
+    "runtime": {
+      "name": "node",
+      "onFail": "error",
+      "version": "24"
+    }
   },
   "name": "starter-astro-5",
   "private": true,
