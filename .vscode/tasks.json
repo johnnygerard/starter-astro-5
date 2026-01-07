@@ -1,7 +1,6 @@
 {
   "tasks": [
     {
-      "detail": "astro dev",
       "isBackground": true,
       "label": "npm: dev",
       "problemMatcher": [
@@ -9,13 +8,12 @@
           "background": {
             "activeOnStart": true,
             "beginsPattern": {
-              "regexp": "^> astro dev"
+              "regexp": "start"
             },
             "endsPattern": {
-              "regexp": "watching for file changes...$"
+              "regexp": "ready"
             }
           },
-          "owner": "typescript",
           "pattern": "$tsc"
         }
       ],
@@ -23,7 +21,6 @@
       "type": "npm"
     },
     {
-      "detail": "astro build",
       "group": {
         "isDefault": true,
         "kind": "build"
@@ -34,7 +31,6 @@
       "type": "npm"
     },
     {
-      "detail": "npm run build && wrangler dev",
       "isBackground": true,
       "label": "npm: preview",
       "problemMatcher": [
@@ -42,13 +38,12 @@
           "background": {
             "activeOnStart": true,
             "beginsPattern": {
-              "regexp": "astro build"
+              "regexp": "start"
             },
             "endsPattern": {
-              "regexp": "Ready on http://localhost:8787"
+              "regexp": "Ready"
             }
           },
-          "owner": "typescript",
           "pattern": "$tsc"
         }
       ],
