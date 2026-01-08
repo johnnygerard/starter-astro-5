@@ -47,6 +47,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "preview": "npm run build && wrangler dev",
+    "qa": "npm run format:check && npm test && npm run build",
     "test": "vitest run",
     "test:watch": "vitest watch",
     "toolbar:disable": "astro preferences disable devToolbar",
