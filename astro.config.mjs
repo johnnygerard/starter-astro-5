@@ -13,7 +13,6 @@ export default defineConfig({
   site: `https://example.com`,
   trailingSlash: "never",
   vite: {
-    // @ts-ignore
     plugins: [tailwindcss()],
   },
 });
