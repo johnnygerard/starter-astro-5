@@ -3,8 +3,11 @@
     "baseUrl": ".",
     "checkJs": true,
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": ["src/*"],
+      "~root/*": ["*"]
     }
   },
-  "extends": "astro/tsconfigs/strictest"
+  "exclude": ["dist"],
+  "extends": "astro/tsconfigs/strictest",
+  "include": ["__tests__", "vitest.config.ts", ".astro/types.d.ts", "src"]
 }
