@@ -8,5 +8,4 @@
 /dist/
 
 # Wrangler
-/worker-configuration.d.ts
 /.wrangler/
