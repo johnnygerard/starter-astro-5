@@ -5,7 +5,8 @@
     "paths": {
       "~/*": ["src/*"],
       "~root/*": ["*"]
-    }
+    },
+    "types": ["./worker-configuration.d.ts", "node"]
   },
   "exclude": ["dist"],
   "extends": "astro/tsconfigs/strictest",
