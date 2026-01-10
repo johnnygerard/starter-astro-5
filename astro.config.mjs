@@ -10,7 +10,7 @@ export default defineConfig({
     format: "file",
   },
   integrations: [sitemap()],
-  site: `https://example.com`,
+  site: `https://placeholder.example`,
   trailingSlash: "never",
   vite: {
     plugins: [tailwindcss()],
