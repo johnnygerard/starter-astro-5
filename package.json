@@ -38,9 +38,9 @@
   "private": true,
   "scripts": {
     "astro": "astro",
-    "build": "astro check && astro build",
+    "build": "npm run check && astro build",
     "cf-typegen": "wrangler types",
-    "check": "astro check",
+    "check": "tsc --noEmit && astro check",
     "deploy": "npm run build && wrangler deploy",
     "dev": "astro dev",
     "docs": "astro docs",
@@ -52,7 +52,6 @@
     "test:watch": "vitest watch",
     "toolbar:disable": "astro preferences disable devToolbar",
     "toolbar:enable": "astro preferences enable devToolbar",
-    "ts:check": "tsc --noEmit",
     "wrangler": "wrangler"
   },
   "type": "module",
