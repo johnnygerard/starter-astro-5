@@ -52,6 +52,7 @@
     "test:watch": "vitest watch",
     "toolbar:disable": "astro preferences disable devToolbar",
     "toolbar:enable": "astro preferences enable devToolbar",
+    "ts:check": "tsc --noEmit",
     "wrangler": "wrangler"
   },
   "type": "module",
