@@ -8,7 +8,6 @@
     },
     "types": ["./worker-configuration.d.ts", "node"]
   },
-  "exclude": ["dist"],
   "extends": "astro/tsconfigs/strictest",
   "include": [
     "__tests__",
