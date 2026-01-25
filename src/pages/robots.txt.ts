@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 
 const getRobotsTxt = (sitemapURL: URL) => `\
+# https://www.rfc-editor.org/rfc/rfc9309
 User-agent: *
 Allow: /
 
