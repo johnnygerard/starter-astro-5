@@ -1,5 +1,11 @@
 ---
 import "~/styles/globals.css";
+
+type Props = {
+  title: string;
+};
+
+const { title } = Astro.props;
 ---
 
 <!doctype html>
@@ -30,7 +36,7 @@ import "~/styles/globals.css";
     />
     <meta name="generator" content={Astro.generator} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Astro 5 Starter</title>
+    <title>{title}</title>
   </head>
   <body
     class:list={[
