@@ -6,6 +6,14 @@ import "~/styles/globals.css";
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
+    {/* Google Fonts */}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    {/* Favicons */}
     <link
       rel="icon"
       href="/assets/images/favicon-light.png"
@@ -24,7 +32,7 @@ import "~/styles/globals.css";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Astro 5 Starter</title>
   </head>
-  <body>
+  <body class="font-[Geist,sans-serif] text-base">
     {/* This wrapper prevents a body overflow in mobile browsers. */}
     <div class="flex min-h-screen flex-col">
       <main class="grid flex-1 items-center">
