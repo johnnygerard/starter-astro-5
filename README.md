@@ -19,6 +19,11 @@ out [Creating a repository from a template](https://docs.github.com/en/repositor
 
 - **Hosting**: [Cloudflare Workers](https://workers.cloudflare.com/)
 
+### Quality Assurance
+
+- **Unit testing**: [Vitest](https://vitest.dev/)
+- **End-to-end testing**: [Playwright](https://playwright.dev/)
+
 ## How to Update
 
 To check for outdated packages, run `npm outdated`.
