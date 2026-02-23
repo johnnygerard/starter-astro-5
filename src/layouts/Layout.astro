@@ -1,5 +1,6 @@
 ---
 import Favicon from "~/components/Favicon.astro";
+import FontLinks from "~/components/starter/FontLinks.astro";
 import "~/styles/globals.css";
 
 type Props = {
@@ -13,13 +14,7 @@ const { title } = Astro.props;
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    {/* Google Fonts */}
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
+    <FontLinks />
     <Favicon />
     <meta name="generator" content={Astro.generator} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
