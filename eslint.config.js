@@ -32,6 +32,7 @@ export default defineConfig([
   },
   globalIgnores([
     ".astro/",
+    ".wrangler/",
     "dist/",
     "package-lock.json",
     "worker-configuration.d.ts",
