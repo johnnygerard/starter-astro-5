@@ -2,12 +2,18 @@
 import Favicon from "~/components/Favicon.astro";
 import FontLinks from "~/components/starter/FontLinks.astro";
 import "~/styles/globals.css";
+import { tw } from "~/utils/tw";
 
 type Props = {
   title: string;
 };
 
 const { title } = Astro.props;
+
+const starterStyles = tw([
+  "bg-neutral-950 font-[Geist,sans-serif] text-base text-neutral-100",
+  "selection:bg-neutral-200 selection:text-neutral-900",
+]);
 ---
 
 <!doctype html>
@@ -20,12 +26,7 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
   </head>
-  <body
-    class:list={[
-      "bg-neutral-950 font-[Geist,sans-serif] text-base text-neutral-100",
-      "selection:bg-neutral-200 selection:text-neutral-900",
-    ]}
-  >
+  <body class={starterStyles}>
     {/* This wrapper prevents a body overflow in mobile browsers. */}
     <div class="flex min-h-screen flex-col">
       <main class="grid flex-1 items-center">
