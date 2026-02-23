@@ -58,7 +58,7 @@
     "lint": "eslint",
     "postlint": "echo '✅ Linting check successful.'",
     "preview": "npm run build && wrangler dev",
-    "qa": "npm run format:check && npm run lint && npm test && npm run build",
+    "qa": "npm run format:check && npm run lint && npm test && npm run e2e",
     "test": "vitest run",
     "test:watch": "vitest watch",
     "toolbar:disable": "astro preferences disable devToolbar",
