@@ -1,3 +1,7 @@
+---
+import ExternalLink from "~/components/starter/ExternalLink.astro";
+---
+
 <section class="mx-auto w-full max-w-3xl px-6 py-16">
   <header class="space-y-4">
     <p class="text-xs tracking-[0.3em] text-neutral-400 uppercase">
@@ -18,19 +22,11 @@
     >
       <p class="text-sm text-neutral-400">Frontend</p>
       <h2 class="mt-2 text-lg font-semibold">
-        <a
-          class="transition-colors hover:text-blue-400"
-          href="https://astro.build/"
-          rel="noopener noreferrer"
-          target="_blank">Astro 5</a
-        >
+        <ExternalLink href="https://astro.build/">Astro 5</ExternalLink>
         +
-        <a
-          class="transition-colors hover:text-blue-400"
-          href="https://tailwindcss.com/"
-          rel="noopener noreferrer"
-          target="_blank">Tailwind CSS 4</a
-        >
+        <ExternalLink href="https://tailwindcss.com/">
+          Tailwind CSS 4
+        </ExternalLink>
       </h2>
       <p class="mt-2 text-sm text-neutral-300">
         Static-first UI with minimal JS and top-tier performance.
@@ -41,43 +37,39 @@
     >
       <p class="text-sm text-neutral-400">Backend</p>
       <h2 class="mt-2 text-lg font-semibold">
-        <a
-          class="transition-colors hover:text-blue-400"
-          href="https://workers.cloudflare.com/"
-          rel="noopener noreferrer"
-          target="_blank">Cloudflare Workers</a
-        >
+        <ExternalLink href="https://workers.cloudflare.com/">
+          Cloudflare Workers
+        </ExternalLink>
       </h2>
       <p class="mt-2 text-sm text-neutral-300">
         Edge-ready hosting with global performance and effortless scale.
       </p>
     </div>
     <div
-      class="rounded-2xl border border-neutral-800 bg-neutral-900/70 p-5 shadow-sm sm:col-span-2"
+      class="rounded-2xl border border-neutral-800 bg-neutral-900/70 p-5 shadow-sm"
     >
       <p class="text-sm text-neutral-400">Tooling</p>
       <h2 class="mt-2 text-lg font-semibold">
-        <a
-          class="transition-colors hover:text-blue-400"
-          href="https://www.typescriptlang.org/"
-          rel="noopener noreferrer"
-          target="_blank">TypeScript</a
+        <ExternalLink href="https://www.typescriptlang.org/"
+          >TypeScript</ExternalLink
         >,
-        <a
-          class="transition-colors hover:text-blue-400"
-          href="https://eslint.org/"
-          rel="noopener noreferrer"
-          target="_blank">ESLint</a
-        >,
-        <a
-          class="transition-colors hover:text-blue-400"
-          href="https://prettier.io/"
-          rel="noopener noreferrer"
-          target="_blank">Prettier</a
-        >
+        <ExternalLink href="https://eslint.org/">ESLint</ExternalLink>,
+        <ExternalLink href="https://prettier.io/">Prettier</ExternalLink>
       </h2>
       <p class="mt-2 text-sm text-neutral-300">
         Opinionated defaults for consistency, linting, and formatting.
+      </p>
+    </div>
+    <div
+      class="rounded-2xl border border-neutral-800 bg-neutral-900/70 p-5 shadow-sm"
+    >
+      <p class="text-sm text-neutral-400">Quality Assurance</p>
+      <h2 class="mt-2 text-lg font-semibold">
+        <ExternalLink href="https://vitest.dev/">Vitest</ExternalLink>,
+        <ExternalLink href="https://playwright.dev/">Playwright</ExternalLink>
+      </h2>
+      <p class="mt-2 text-sm text-neutral-300">
+        Unit and end-to-end testing for reliable, production-ready code.
       </p>
     </div>
   </div>
