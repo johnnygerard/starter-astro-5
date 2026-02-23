@@ -29,9 +29,11 @@ const starterStyles = tw([
   <body class={starterStyles}>
     {/* This wrapper prevents a body overflow in mobile browsers. */}
     <div class="flex min-h-screen flex-col">
+      {/* <Header /> */}
       <main class="grid flex-1 items-center">
         <slot />
       </main>
+      {/* <Footer /> */}
     </div>
   </body>
 </html>
