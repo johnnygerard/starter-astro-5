@@ -12,3 +12,10 @@
 # https://developers.cloudflare.com/workers/configuration/environment-variables/#local-development-with-secrets
 /.dev.vars*
 !.dev.vars.example
+
+# Playwright
+/blob-report/
+/playwright-report/
+/playwright/.auth/
+/playwright/.cache/
+/test-results/
